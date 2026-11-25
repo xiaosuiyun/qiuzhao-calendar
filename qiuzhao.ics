@@ -1,0 +1,1284 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//WorkBuddy//BiShiAnPai//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:秋招笔试安排
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+UID:nanfang-bishi-p1-20261028@workbuddy
+DTSTAMP:20261028T081000Z
+DTSTART:20261028T103000Z
+DTEND:20261028T130000Z
+SUMMARY:南方基金 在线笔试·场次1（18:30-21:00\, 110分钟）
+DESCRIPTION:三场选一。需先在邮件点"接受笔试邀请"。切屏/
+ 截屏2次或中断1次即自动交卷。带身份证核验。
+BEGIN:VALARM
+TRIGGER:-PT45M
+ACTION:DISPLAY
+DESCRIPTION:南方基金笔试 18:30 开始\, 提前30分钟登录
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nanfang-mianshi-didian-20261028@workbuddy
+DTSTAMP:20261028T081000Z
+DTSTART:20261028T155500Z
+DTEND:20261028T160000Z
+SUMMARY:截止：南方基金 面试城市预反馈（24:00前\, 只能提
+ 交一次）
+DESCRIPTION:第一轮面试预计11/3-11/11线下。需在人员信息采
+ 集表选面试城市\, 仅一次机会。
+BEGIN:VALARM
+TRIGGER:-PT6H
+ACTION:DISPLAY
+DESCRIPTION:南方基金面试城市今晚24:00前必须提交
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nanfang-bishi-p2-20261029@workbuddy
+DTSTAMP:20261028T081000Z
+DTSTART:20261029T013000Z
+DTEND:20261029T040000Z
+SUMMARY:南方基金 在线笔试·场次2（9:30-12:00\, 备选）
+DESCRIPTION:三场选一\, 参加一场即可。
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cmb-mianshi2-20261029@workbuddy
+DTSTAMP:20261029T060500Z
+DTSTART:20261029T020000Z
+DTEND:20261029T033000Z
+SUMMARY:招商银行 现场二面（10:00\, 线下）
+DESCRIPTION:陆家嘴环路1088号招银大厦南塔7层面试间1。带身
+ 份证\, 提前30分钟签到。10/28 19:58 预约成功。
+END:VEVENT
+BEGIN:VEVENT
+UID:yongying-mianshi-20261029@workbuddy
+DTSTAMP:20261028T081000Z
+DTSTART:20261029T084400Z
+DTEND:20261029T084500Z
+SUMMARY:截止：永赢基金 线上视频面（16:44前）
+DESCRIPTION:基金会计岗。微信小程序扫码进入\, 中途退出最
+ 多再进3次。
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:永赢基金视频面明天 16:44 截止
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nanfang-bishi-p3-20261029@workbuddy
+DTSTAMP:20261028T081000Z
+DTSTART:20261029T103000Z
+DTEND:20261029T130000Z
+SUMMARY:南方基金 在线笔试·场次3（18:30-21:00\, 备选）
+DESCRIPTION:三场选一\, 参加一场即可。注意与国泰海通测评
+ 20:32截止时间重叠。
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gtht-ceping-20261029@workbuddy
+DTSTAMP:20261028T081000Z
+DTSTART:20261029T123200Z
+DTEND:20261029T123300Z
+SUMMARY:截止：国泰海通证券 人才测评（20:32前）
+DESCRIPTION:上海分公司管培生。duomian平台\, 防作弊严格。
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:国泰海通测评明天 20:32 截止
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nesc-deadline-20261030@workbuddy
+DTSTAMP:20261028T081000Z
+DTSTART;VALUE=DATE:20261030
+SUMMARY:最晚完成：东北证券在线笔试（约1小时\, 19:45失效
+ ）
+DESCRIPTION:仅支持 Chrome 最新版\, 摄像头全程监控。
+END:VEVENT
+BEGIN:VEVENT
+UID:hxb-shikao-20261030@workbuddy
+DTSTAMP:20261029T060500Z
+DTSTART;VALUE=DATE:20261030
+SUMMARY:华夏银行 笔试试考窗口开始（10/30 10:00 - 10/31 24:00
+ ）
+DESCRIPTION:eztest客户端\, 下载与说明 https://vip.eztest.cn/hxb1101
+ / 。试考口令444940\, 准考证号=证件号。务必在10/31前完成
+ 试考调设备。
+END:VEVENT
+BEGIN:VEVENT
+UID:hxb-huizhi-20261030@workbuddy
+DTSTAMP:20261029T121000Z
+DTSTART;VALUE=DATE:20261030
+SUMMARY:待办：华夏银行 点「确认参加」回执 + 试考
+DESCRIPTION:性格测评邮件内有「确认参加/放弃考试」按钮
+ （回执 https://s.51job.com/4PAoYz ）\, 尽快点确认。同日 10:00 
+ 起可试考（口令444940）\, eztest客户端\, 双机位。
+BEGIN:VALARM
+TRIGGER:-PT16H
+ACTION:DISPLAY
+DESCRIPTION:华夏银行：点确认参加回执 + 试考调双机位
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:shb-shikao-20261030@workbuddy
+DTSTAMP:20261029T234500Z
+DTSTART;VALUE=DATE:20261030
+SUMMARY:上海银行 试考（今天 09:00-22:00\, 仅一次机会）
+DESCRIPTION:上银基金岗。eztest客户端 https://eztest.org/exam/sessi
+ on/448021/client/download \, 试考口令448021\, 准考证号310112200207
+ 282122。试考后无法再次登录\, 务必今天完成设备+第二视
+ 角（手机扫码）调试。
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:上海银行试考窗口 22:00 关闭\, 仅一次机会
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:icbc-yuyue-20261030@workbuddy
+DTSTAMP:20261028T081000Z
+DTSTART:20261030T035500Z
+DTEND:20261030T040000Z
+SUMMARY:截止：工行 考点预约（12:00\, 尽快今天约）
+DESCRIPTION:icbc20261031.campustest.cn 账号=证件号\, 密码=手机号
+ 后6位。机位先到先得\, 逾期系统自动分配。
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:工行考点预约明天中午12:00截止
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:icbc-bishi-20261031@workbuddy
+DTSTAMP:20261028T081000Z
+DTSTART:20261031T013000Z
+DTEND:20261031T040000Z
+SUMMARY:工商银行 统一笔试（9:30\, 线下）
+DESCRIPTION:提前40分钟凭纸质准考证+身份证入场。开考30分
+ 钟后不得入场。
+BEGIN:VALARM
+TRIGGER:-PT3H
+ACTION:DISPLAY
+DESCRIPTION:工行笔试 9:30 开始\, 提前40分钟到考场
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:明天 9:30 工行笔试（线下）\, 检查准考证
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sxzq-queren-20261031@workbuddy
+DTSTAMP:20261030T113000Z
+DTSTART:20261031T050000Z
+DTEND:20261031T050100Z
+SUMMARY:截止：山西证券 确认参加测评（13:00前）
+DESCRIPTION:点 https://bsurl.cn/v2/AoWPsiBy 反馈是否参加。测评本
+ 身是 11/1 8:00-23:59（40分钟）。
+BEGIN:VALARM
+TRIGGER:-PT3H
+ACTION:DISPLAY
+DESCRIPTION:山西证券测评确认 13:00 截止（建行考试前记得
+ 点）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ccb-bishi-20261031@workbuddy
+DTSTAMP:20261028T081000Z
+DTSTART:20261031T063000Z
+DTEND:20261031T090000Z
+SUMMARY:建行系统一笔试（14:30-17:00）· 建信基金+建行上海
+ 同场
+DESCRIPTION:同一场考试\, 成绩两家共用。综合类。线下：提
+ 前预约考点、打印准考证。不可提前交卷\, 不可返回上
+ 一单元。
+BEGIN:VALARM
+TRIGGER:-PT4H
+ACTION:DISPLAY
+DESCRIPTION:建行笔试 14:30 开始\, 确认考点与准考证
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:db-cappfinity-20261031@workbuddy
+DTSTAMP:20261028T101800Z
+DTSTART:20261031T072300Z
+DTEND:20261031T072400Z
+SUMMARY:截止：德意志银行 在线测评（15:23前\, Cappfinity）
+DESCRIPTION:2027 Graduate Programme - Corporate Bank - Shanghai。行为+
+ 认知测评\, 不限时（30-45分钟）。可保存进度\, 勿按返回
+ 键。Chrome\, 开音频\, 备计算器。注意：当天有工行9:30与
+ 建行14:30两场线下\, 建议10/29-30提前做完。
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:德银测评明天 15:23 截止（建议今天做掉）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:shb-bishi-20261031@workbuddy
+DTSTAMP:20261029T234500Z
+DTSTART:20261031T110000Z
+DTEND:20261031T124000Z
+SUMMARY:上海银行 笔试（19:00-20:40\, 线上双摄）
+DESCRIPTION:上银基金岗。18:30起可登录\, 正式口令448026\, 准
+ 考证号310112200207282122。eztest客户端+手机扫码第二视角+人
+ 工监考。禁耳机/手机/计算器\, 开考30分钟内未进入视为
+ 放弃。当天还有工行9:30与建行14:30两场线下。
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:上海银行笔试 19:00 开始\, 18:30 登录调试双摄
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:taiping-ceping-20261101@workbuddy
+DTSTAMP:20261028T081000Z
+DTSTART;VALUE=DATE:20261101
+SUMMARY:最晚完成：中国太平线上测评（约40分钟\, 可分3次
+ ）
+DESCRIPTION:心理+认知能力测评。约11/1 12:01截止。通行证 132
+ 67276721759。
+END:VEVENT
+BEGIN:VEVENT
+UID:hxb-bishi-20261101@workbuddy
+DTSTAMP:20261029T060500Z
+DTSTART:20261101T020000Z
+DTEND:20261101T040000Z
+SUMMARY:华夏银行 统一笔试（10:00-12:00\, 线上双机位）
+DESCRIPTION:经济金融专业。可9:30起登录。eztest客户端\, 口
+ 令444941\, 准考证号=证件号。双机位监考。另有独立《性
+ 格测评》30分钟（窗口10/31 8:00-11/2 23:59\, 51job链接）\, 建
+ 议11/1考完当天做掉。
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:华夏银行笔试 10:00 开始\, 提前登录调试双机位
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:明天 10:00-12:00 华夏银行线上笔试（双机位）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:wanlian-ceping-20261101@workbuddy
+DTSTAMP:20261028T081000Z
+DTSTART:20261101T054600Z
+DTEND:20261101T054700Z
+SUMMARY:截止：万联证券 在线测评（13:46前）
+DESCRIPTION:通行证 62262388372596。Chrome 86+。
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:万联证券测评明天 13:46 截止
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:xy-shikao-20261101@workbuddy
+DTSTAMP:20261030T122700Z
+DTSTART:20261101T140000Z
+DTEND:20261101T140100Z
+SUMMARY:截止：兴业银行 试考调试关闭（11/1 22:00前）
+DESCRIPTION:易考客户端 https://eztest.cn/exam/session/447588/client/do
+ wnload \, 试考口令447588\, 准考证号=网申手机号。需手机第
+ 二视角监控。正式考试 11/2 19:00-21:00（口令447591）。
+BEGIN:VALARM
+TRIGGER:-PT4H
+ACTION:DISPLAY
+DESCRIPTION:兴业银行试考 22:00 关闭\, 今天务必调好设备
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sxzq-ceping-20261101@workbuddy
+DTSTAMP:20261030T113000Z
+DTSTART:20261101T155900Z
+DTEND:20261101T160000Z
+SUMMARY:截止：山西证券 线上测评（11/1 23:59前\, 40分钟）
+DESCRIPTION:窗口 11/1 8:00-23:59。双摄监控（手机微信扫码第
+ 二视角45度）。通行证 12262808180315\, 邮箱 yumengjiang2026@163.
+ com\, Chrome100+。建议当天 20:00 做（白天有华夏笔试和太平
+ /万联截止）。
+BEGIN:VALARM
+TRIGGER:-PT3H
+ACTION:DISPLAY
+DESCRIPTION:山西证券测评今晚 23:59 截止（40分钟）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gxzq-zhuanye-20261102@workbuddy
+DTSTAMP:20261030T113000Z
+DTSTART:20261102T100000Z
+DTEND:20261102T113000Z
+SUMMARY:⚠️待定：国新证券 专业笔试（18:00-19:30\, 90分钟
+ ）
+DESCRIPTION:双摄监控。通行证 11267667540317\, 链接 https://bsurl.
+ cn/v2/vp4YDWmQ 。注意：综合笔试(10/31下午)与建行冲突已放
+ 弃\, 官方要求两场都参加；确认回执截止10/30 17:00已过。
+ 若决定放弃国新可忽略本事件。
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:xy-bishi-20261102@workbuddy
+DTSTAMP:20261030T122700Z
+DTSTART:20261102T110000Z
+DTEND:20261102T130000Z
+SUMMARY:兴业银行 统一笔试（19:00-21:00\, 非科技岗第一批）
+DESCRIPTION:易考客户端\, 正式口令447591\, 准考证号=网申手
+ 机号。18:30 起登录调试\, 开考30分钟未登录视为缺考。手
+ 机第二视角监控。注意与国新证券专业笔试(18:00-19:30)时
+ 间重叠。
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:兴业银行笔试 19:00 开始\, 提前30分钟登录并开手
+ 机第二视角
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:明天 19:00-21:00 兴业银行线上笔试
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hxb-xingce-ceping-20261102@workbuddy
+DTSTAMP:20261029T121000Z
+DTSTART:20261102T155900Z
+DTEND:20261102T160000Z
+SUMMARY:截止：华夏银行 性格测评（30分钟\, 11/2 23:59前）
+DESCRIPTION:窗口 10/31 8:00 - 11/2 23:59。线上30分钟性格测评\, 
+ 属线上考试一部分。链接 https://s.51job.com/1OCf7Z 。Chrome/Fir
+ efox\, 带宽4M+。凭第一感觉作答\, 乱答或过快无效。建议 
+ 11/1 笔试结束后当天完成。
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:华夏银行性格测评明天 23:59 截止（30分钟）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cmb-zhongmian-20261103@workbuddy
+DTSTAMP:20261030T134600Z
+DTSTART:20261103T060000Z
+DTEND:20261103T070000Z
+SUMMARY:招商银行上海分行 现场终面（14:00\, 线下708会议室
+ ）
+DESCRIPTION:浦东陆家嘴环路1088号招商银行大厦南塔7层708会
+ 议室。带身份证\, 提前30分钟到场签到。10/30 21:41 预约成
+ 功（本批预约截止 10/31 7:00\, 已约好）。
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:招行终面 14:00（线下708会议室\, 带身份证提前30
+ 分钟到）
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:明天 14:00 招行上海分行现场终面
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gtht-mianshi-20261104@workbuddy
+DTSTAMP:20261030T122700Z
+DTSTART:20261104T023000Z
+DTEND:20261104T033000Z
+SUMMARY:国泰海通证券 无领导小组面试（10:30\, 线上集体面
+ 试）
+DESCRIPTION:管培生岗。集体面试（无领导小组）\, 线上视频
+ \, 约60分钟（可能延长\, 留缓冲）。11/3 10:31 官方提醒：
+ 面试链接 https://app.mokahr.com/su/zzkwhz \, 会议号 742801117 。
+ 联系人顾女士 021-63897325 / guyuxi@gtht.com。需改期直接联系
+ 。
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:国泰海通无领导面试 10:30（腾讯会议\, 提前进会
+ ）
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:明天 10:30 国泰海通无领导小组面试（线上）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:citicc-intl-huizhi-20261104@workbuddy
+DTSTAMP:20261103T133000Z
+DTSTART:20261104T040000Z
+DTEND:20261104T040100Z
+SUMMARY:截止：中信建投(国际) 笔试回执（11/4 12:00前点「准
+ 时参加」）
+DESCRIPTION:预通知邮件内「准时参加 / 放弃」按钮\, 11/4 12:0
+ 0 前必须点。笔试：11/7(周六)19:00-21:30\, 约150分钟。⚠️ 
+ 与南京证券笔试(11/7 18:30-20:30)硬冲突\, 需二选一。
+BEGIN:VALARM
+TRIGGER:-PT18H
+ACTION:DISPLAY
+DESCRIPTION:中信建投(国际)笔试回执 11/4 12:00 截止（点「准
+ 时参加」）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:swhy2-bishi-20261104@workbuddy
+DTSTAMP:20261102T133000Z
+DTSTART:20261104T110000Z
+DTEND:20261104T123000Z
+SUMMARY:申万宏源 正式笔试（19:00-20:30\, 双机位）
+DESCRIPTION:集团及证券公司2027校招。专属网址 https://bsurl.cn
+ /v2/lTuUDhco 。4个部分总限时90分钟（第1部分60分钟\, 2-4部
+ 分共30分钟）。提前15分钟登录\, 开考超15分钟不可登录
+ 。考前测试 11/4 18:00 关闭。需填考试意向问卷 https://v.wjx
+ .cn/vm/wFCBHsw.aspx 。Chrome86+\, 身份证拍照\, 手机45度斜后上
+ 方监控。
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:申万宏源笔试 19:00（提前15分钟登录\, 双机位）
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:明天 19:00-20:30 申万宏源正式笔试（先填意向问
+ 卷）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:shns-ceping-20261104@workbuddy
+DTSTAMP:20261102T133000Z
+DTSTART:20261104T155900Z
+DTEND:20261104T160000Z
+SUMMARY:截止：上海农商银行 在线测评+AI面试（11/4 23:59前\,
+  约1.5h）
+DESCRIPTION:业务储备生（科创金融方向）。地址 https://bsurl.
+ cn/v2/jyHEKPdC 。AI面试+在线笔试统一完成\, 全程约1.5小时\,
+  须在该时间段内"完成"作答。双机位（电脑主机位+手机
+ 辅机位）\, Chrome最新版。⚠️ 11/4 白天已有国泰海通面
+ 试与申万宏源笔试 → 建议 11/3 提前做完。
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:上海农商测评明天 23:59 截止（约1.5h\, 建议今天
+ 做）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:boc-ai-20261104@workbuddy
+DTSTAMP:20261102T133000Z
+DTSTART:20261104T155900Z
+DTEND:20261104T160000Z
+SUMMARY:截止：中国银行上海分行 AI面试+线上测评（11/4 24:0
+ 0前）
+DESCRIPTION:AI面试30分钟（https://boc-ai2027.applyoffer.com \,仅PC/Ch
+ rome）+ 线上测评60分钟（https://at.hracyun.com/evaPc/login/507 \,
+ 手机号+短信验证码）。官方建议提前6小时提交。⚠️ 11
+ /4 白天已排满 → 建议 11/3 完成。
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:中行AI面+测评明天 24:00 截止（共1.5h\, 建议今天
+ 做）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:huanqiu-ai-20261104@workbuddy
+DTSTAMP:20261103T133000Z
+DTSTART:20261104T155900Z
+DTEND:20261104T160000Z
+SUMMARY:截止：中国寰球工程 AI面试（11/4 23:59前）
+DESCRIPTION:已通过简历初筛。仅电脑端作答\, 双摄像头监控
+ （手机放侧后方45度）。身份证核验\, Chrome/Edge最新版\, 
+ 禁耳机/智能眼镜。链接 https://bsurl.cn/v2/E6pFEKl7 。限登录
+ 与切屏次数。约需 30-40 分钟。
+BEGIN:VALARM
+TRIGGER:-PT20H
+ACTION:DISPLAY
+DESCRIPTION:中国寰球AI面试今天 23:59 截止
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kunlun-form-20261104@workbuddy
+DTSTAMP:20261104T050600Z
+DTSTART:20261104T155900Z
+DTEND:20261104T160000Z
+SUMMARY:截止：昆仑能源 信息补充收集表（今天 24:00\, 5分
+ 钟）
+DESCRIPTION:腾讯文档表单 https://docs.qq.com/form/page/DSkx0ZEpka29hV
+ mVF 。不晚于 11/4 24:00 填写\, 逾期以中石油平台简历为准
+ 。填完顺手把昆仑能源 AI 面试也排上（窗口至 11/5 24:00
+ ）。
+BEGIN:VALARM
+TRIGGER:-PT3H
+ACTION:DISPLAY
+DESCRIPTION:昆仑能源信息补充表今晚 24:00 截止（5分钟填完
+ ）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:njzq-monikao-20261105@workbuddy
+DTSTAMP:20261030T113000Z
+DTSTART;VALUE=DATE:20261105
+SUMMARY:南京证券 模拟笔试窗口开始（11/5 9:00 - 11/6 23:00）
+DESCRIPTION:eztest客户端 https://eztest.cn/exam/session/447436/client/do
+ wnload \, 模拟口令447436\, 准考证号=证件号。模拟后别卸载
+ 客户端。正式考试 11/7 18:30-20:30\, 口令447449。
+BEGIN:VALARM
+TRIGGER:-PT12H
+ACTION:DISPLAY
+DESCRIPTION:南京证券模拟笔试窗口明天关闭（11/6 23:00）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cmb-mianshi2-20261105@workbuddy
+DTSTAMP:20261028T081000Z
+DTSTART:20261105T020000Z
+DTEND:20261105T030000Z
+SUMMARY:招商银行 数字金融岗 线上一面（10:00\, 腾讯会议）
+DESCRIPTION:腾讯会议 会议号 998-3413-6027。9:45 前进面试大厅
+ 候场\, 提前调试摄像头麦克风。联系 career_cmbsh@126.com。
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:招行数字金融岗线上一面 10:00 开始
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:明天 10:00 招行数字金融岗线上面试
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ha-bishi-20261105@workbuddy
+DTSTAMP:20261104T050600Z
+DTSTART:20261105T070000Z
+DTEND:20261105T080000Z
+SUMMARY:华安证券 笔试（15:00-16:00\, 线上闭卷）
+DESCRIPTION:仅电脑作答（带摄像头）\, Chrome 44+ / IE11+。入口
+  https://hahr.hazq.com:8083/eip4ha-hyapp/examManage/login 。提前登录
+ 或开考15分钟后登录均无效 → 14:50 前进系统。技术电话 
+ 0551-65980279。
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:华安证券笔试 15:00（14:50 前进系统）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dtt-ot-20261105@workbuddy
+DTSTAMP:20261101T011500Z
+DTSTART:20261105T151400Z
+DTEND:20261105T151500Z
+SUMMARY:截止：德勤 在线测评（11/5 23:14前\, 约2小时）
+DESCRIPTION:Analyst - Artificial Intelligence & Data - Consulting - SH。Co
+ gnitive Ability(IQCAT+HPT) 58分钟（需计算器+纸笔）+ Personality 
+ 30分钟 + Digital Intelligence 15分钟。可电脑或手机\, Chrome/Fir
+ efox\, 网速≥4M。计时不可暂停。建议 11/3 终面后或 11/1 
+ 下午完成。
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:德勤在线测评明天 23:14 截止（约2小时）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kunlun-ai-20261105@workbuddy
+DTSTAMP:20261103T133000Z
+DTSTART:20261105T155900Z
+DTEND:20261105T160000Z
+SUMMARY:截止：昆仑能源 线上AI面试（窗口11/4 0:00-11/5 24:00
+ ）
+DESCRIPTION:已通过通用能力考试\, 进入AI面试环节。约40分
+ 钟\, 双视角（电脑+手机）\, 全程监考。专属地址（勿转
+ 发）见邮件。建议 11/5 做（11/4 已排满）。
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:昆仑能源AI面试明天 24:00 截止（约40分钟\, 双视
+ 角）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:accenture-sinyin-todo-20261106@workbuddy
+DTSTAMP:20261105T001500Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:待办：埃森哲网申完成 + 信银理财简历补全（新来
+ 的两封）
+DESCRIPTION:① 埃森哲 AI未来分析师成长计划（AI-Native Analyst
+  Program）网申登记表\, 11/4 17:07 通知\, 不完成会失去笔试
+ 面试资格；② 信银理财 交易方向\, 补全简历链接 xyz.51jo
+ b.com/External/Apply.aspx?CtmID=8140717。均无明确截止\, 但尽快
+ 完成。
+END:VEVENT
+BEGIN:VEVENT
+UID:bosc-ai-20261106@workbuddy
+DTSTAMP:20261104T050600Z
+DTSTART:20261106T020000Z
+DTEND:20261106T020100Z
+SUMMARY:截止：上海银行 AI测评（11/6 10:00前\, 40分钟手机扫
+ 码）
+DESCRIPTION:已通过上银笔试。手机微信扫码作答（非鸿蒙更
+ 稳）\, 开启摄像头麦克风\, 手持身份证拍照。登录/切出/
+ 截图均限次数\, 超限邀请失效。建议上午做避开晚间高
+ 峰。客服 400-650-6886 / recruit@bosc.cn。
+BEGIN:VALARM
+TRIGGER:-PT20H
+ACTION:DISPLAY
+DESCRIPTION:上海银行AI测评明天 10:00 截止（40分钟\, 手机作
+ 答）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cmszjh-reply-20261107@workbuddy
+DTSTAMP:20261105T093000Z
+DTSTART:20261107T040000Z
+DTEND:20261107T040100Z
+SUMMARY:截止：招商证券投行委 面试回复邮件（11/7 12:00前\,
+  附word简历）
+DESCRIPTION:面试 11/13 10:30 浦东博航路68号招商局上海中心5F 
+ 519。回复主题"江雨濛-参加面试-应聘岗位"\, 附完整简历
+ 模板word版\, 面试当天打印6份纸质简历\, 准备2分钟自我
+ 介绍。联系人陈金荆 0755-8308-1355 / chenjinjing@cmschina.com.cn
+ 。未按时回复=默认放弃。
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:招商证券面试回复明天 12:00 截止（附word简历）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:njzq-bishi-20261107@workbuddy
+DTSTAMP:20261030T113000Z
+DTSTART:20261107T103000Z
+DTEND:20261107T123000Z
+SUMMARY:⚠️冲突：南京证券 统一笔试（18:30-20:30\, 60分钟
+ 可交卷）
+DESCRIPTION:eztest客户端\, 正式口令447449\, 准考证号=证件号
+ 。18:20 起可登录拍照\, 开考20分钟后视为缺考。仅1个考
+ 核单元\, 作答60分钟可交卷（18:30开始→19:30可结束）\, 
+ 因此可接 19:35 的上海交易集团笔试。闭卷\, 双视角监控\
+ , 关VPN/投屏/远程软件。⚠️ 与中信建投(国际)19:00-21:30 
+ 硬冲突。
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:南京证券笔试 18:30 开始\, 提前登录拍照核验
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:明天 18:30-20:30 南京证券线上笔试
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:citicc-intl-bishi-20261107@workbuddy
+DTSTAMP:20261103T133000Z
+DTSTART:20261107T110000Z
+DTEND:20261107T133000Z
+SUMMARY:⚠️冲突：中信建投(国际) 在线统一笔试（19:00-21:3
+ 0\, 150分钟）
+DESCRIPTION:与南京证券笔试(11/7 18:30-20:30)完全重叠90分钟\, 
+ 只能二选一。需 11/4 12:00 前点「准时参加」回执。正式
+ 通知后续发邮件（把 51job/51service 设白名单）\, 咨询 zxjtz
+ qzp@163.com。
+BEGIN:VALARM
+TRIGGER:-PT3H
+ACTION:DISPLAY
+DESCRIPTION:中信建投(国际)笔试 19:00 开始（与南京证券冲突
+ \, 确认选哪场）
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:明天 19:00 中信建投(国际)笔试（与南京证券冲突
+ ）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:shjy-bishi-20261107@workbuddy
+DTSTAMP:20261105T093000Z
+DTSTART:20261107T110500Z
+DTEND:20261107T120500Z
+SUMMARY:⚠️冲突：上海交易集团 在线笔试（19:05-20:05窗口\
+ , 60分钟）
+DESCRIPTION:集团管理培训生（产权业务类）。与中信建投国
+ 际19:00-21:30\, 南京证券18:30-20:30三方完全冲突\, 只能选一
+ 场。专属链接 s.51job.com/1Sh2GO \, Chrome/火狐\, 摄像头全程
+ 监测\, 带宽≥6M。确认/放弃回执：s.51job.com/2OQSGG。
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:上海交易集团笔试 1 小时后开窗（与中信建投/
+ 南京证券冲突\, 确认选哪场）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bocsh-yuyue-20261107@workbuddy
+DTSTAMP:20261105T142000Z
+DTEND:20261107T160100Z
+DTSTART:20261107T160000Z
+SUMMARY:截止：中国银行上海分行 线下面试预约（11/7 24:00
+ 前）
+DESCRIPTION:预约地址 https://boc2027.applyoffer.com （Chrome+PC端\, 
+ 手机号+短信验证码登录）。面试窗口 11/9-11/23\, 地点：
+ 黄浦区滇池路74号 外滩大楼5楼。岗位：营业网点业务岗
+ （营销服务）。当天正装、提前15分钟、带身份证+黑色
+ 水笔、禁带手机耳机智能手表。
+BEGIN:VALARM
+TRIGGER:-PT8H
+ACTION:DISPLAY
+DESCRIPTION:中行线下面试预约今晚 24:00 截止（Chrome PC 端）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cmbsh-jianli-20261107@workbuddy
+DTSTAMP:20261106T124000Z
+DTSTART:20261107T160000Z
+DTEND:20261107T160100Z
+SUMMARY:截止：招商银行上海分行 简历信息确认+问卷（11/7 
+ 24:00前）
+DESCRIPTION:问卷 https://www.wjx.cn/resultquery.aspx?activity=396220168 
+ 。上海分行人力资源部 career_cmbsh@126.com。终面（11/3）后
+ 的流程环节\, 务必按时回复。
+BEGIN:VALARM
+TRIGGER:-PT8H
+ACTION:DISPLAY
+DESCRIPTION:招行上海分行 简历确认+问卷 今晚 24:00 截止
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ubs-ot-20261108@workbuddy
+DTSTAMP:20261104T050600Z
+DTSTART:20261107T162000Z
+DTEND:20261107T162100Z
+SUMMARY:最晚完成：UBS 在线测评（11/8 00:20前\, 40分钟不可重
+ 考）
+DESCRIPTION:UBS 2027 Graduate Talent Program - Global Banking - Hong Kong
+ （342449BR / candidate 6066046）。两个测评：UBS Culture Match + Ju
+ nior Talent Cognitive（数字/语言/逻辑）\, 共约40分钟。不允
+ 许重考\, 禁用AI工具。建议 11/5-11/7 上午做\, 别拖到 11/7 
+ 晚上（那天有笔试）。
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:UBS在线测评明天 24:20 截止（40分钟\, 不可重考）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ccb-xingce-20261108@workbuddy
+DTSTAMP:20261104T050600Z
+DTSTART:20261108T040000Z
+DTEND:20261108T040100Z
+SUMMARY:截止：建设银行 统一性格测评（11/8 12:00前\, 30分钟
+ 电脑作答）
+DESCRIPTION:链接 https://s.51job.com/2htohJ （专属勿转发）。必
+ 须笔记本电脑/台式机\, 禁用手机Pad\, 需摄像头\, Chrome/Fir
+ efox\, 带宽≥4M。点"开始答题"即倒计时30分钟不可暂停。
+ 全行统一\, 报多家机构只测一次结果通用。建议 11/5-11/6 
+ 做完。
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:建行性格测评明天 12:00 截止（30分钟电脑作答）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:db-jobsim-20261108@workbuddy
+DTSTAMP:20261104T082500Z
+DTSTART:20261108T074900Z
+DTEND:20261108T081900Z
+SUMMARY:截止：德意志银行 Job Simulation 测评（11/8 16:19前\, 20
+ -40分钟视频行为面）
+DESCRIPTION:2027 DB Graduate Programme - Corporate Bank - Shanghai。Cappfi
+ nity 平台\, 行为测评+视频作答（不能提问）\, 约20-40分钟
+ 。电脑/笔记本优先\, Chrome最新版最佳\, 必须开启音频。
+ 一旦开始不能重开\, 未提交前可保存退出续做\, 禁用返
+ 回键。建议 11/6 白天做完。技术问题走 Cappfinity 支持页
+ 。
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:德银 Job Simulation 测评明天 16:19 截止（20-40分钟
+ 视频面）
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT4H
+ACTION:DISPLAY
+DESCRIPTION:德银 Job Simulation 测评 4 小时后截止
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bocsh-mianshi-20261109@workbuddy
+DTSTAMP:20261105T142000Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261124
+SUMMARY:中国银行上海分行 线下面试窗口（11/9-11/23\, 待预
+ 约具体时间）
+DESCRIPTION:外滩大楼5楼（黄浦区滇池路74号）。岗位：营业
+ 网点业务岗（营销服务）。正装、提前15分钟签到、带身
+ 份证+黑色水笔、禁带电子设备。11/7 24:00 前须在 boc2027.ap
+ plyoffer.com 预约具体日期。
+END:VEVENT
+BEGIN:VEVENT
+UID:taiping-ai-mianshi-20261112@workbuddy
+DTSTAMP:20261109T013600Z
+DTSTART:20261109T012200Z
+DTEND:20261112T012200Z
+SUMMARY:截止：中国太平 综合面试 AI面（11/12 09:22前\, 72小
+ 时窗口）
+DESCRIPTION:11/9 09:22 收到邀请（前情：10月底线上测评已通
+ 过\, 进入综合面试）。形式：AI视频面试\, 无真人面试官
+ \, 约20分钟\, 投递多岗只需一次。仅电脑端+手机双机位
+ （微信扫码开第二机位\, 支架固定/外接电源/勿息屏/关
+ 推送）。Chrome≥120\, 摄像头麦克风正常\, 网络差可切5G热
+ 点。只有一次作答机会\, 每题有准备时间+答题时间\, 答
+ 完不可回退上一题。中文链接 https://candidate.aidexianzhaoping
+ uan.com/exam/8926b3892e6c4ba19d1b83f67fbaa5e1 （英文/粤语链接见邮
+ 件）。禁止用ChatGPT或照读资料。技术支持400-096-3520。建
+ 议11/9晚20:00做掉。
+BEGIN:VALARM
+TRIGGER:-PT12H
+ACTION:DISPLAY
+DESCRIPTION:中国太平 AI面 明天 09:22 截止（20分钟\, 电脑+双
+ 机位）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:shrcb-zhongmian-yuyue-20261110@workbuddy
+DTSTAMP:20261110T012500Z
+DTSTART:20261110T040000Z
+DTEND:20261110T040500Z
+SUMMARY:截止：上海农商银行 现场终面预约（今天12:00\, 逾
+ 期视为放弃）
+DESCRIPTION:11/9 13:38 通知。面试固定 11/14（周六）\, 地点：
+ 上海市黄浦区中山东二路70号 外滩SOHO B栋1702\, 仅现场面
+ 试一种形式。必须在邮件/系统中点「前往预约」选定时
+ 间段\, 名额有限先到先得\, 逾期视作放弃。咨询 zhaopin@sh
+ rcb.com。建议约上午场。
+BEGIN:VALARM
+TRIGGER:TRIGGER:-PT3H
+ACTION:DISPLAY
+DESCRIPTION:上海农商终面预约 12:00 截止（逾期作放弃）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sinochem-wenjuan-20261110@workbuddy
+DTSTAMP:20261110T012500Z
+DTSTART:20261110T160000Z
+DTEND:20261110T160500Z
+SUMMARY:截止：中国中化审计中心 无领导面试意向问卷（今
+ 天24:00\, 逾期默认线上）
+DESCRIPTION:11/9 18:13 通知。已过简历筛选\, 进入无领导小组
+ 面试。主场地北京\, 可选赴京线下或线上视频；官方更
+ 推荐线下（现场互动更充分）。问卷 https://v.wjx.cn/vm/tAGl8
+ JG.aspx 约1分钟。逾期未反馈系统默认安排线上面试。具
+ 体时间与形式以后续正式通知为准。注意：11/20 09:00-10:00
+  已在上海有中行面试\, 若选线下需留意撞期。
+BEGIN:VALARM
+TRIGGER:TRIGGER:-PT6H
+ACTION:DISPLAY
+DESCRIPTION:中化无领导面试问卷 24:00 截止（逾期默认线上
+ ）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:chinapost-confirm-20261111@workbuddy
+DTSTAMP:20261106T124000Z
+DTSTART:20261111T160000Z
+DTEND:20261111T160100Z
+SUMMARY:截止：中国邮政笔试「我确认参加」（11/11 24:00前
+ ）
+DESCRIPTION:https://t.weicewang.com/notify/38386 准考证页点击"我确
+ 认参加"\, 逾期视为放弃。笔试 11/13 14:00-16:00 线上双摄。
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:中国邮政笔试确认明天 24:00 截止（准考证页点
+ 确认参加）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:swhy-tiaoji-20261112@workbuddy
+DTSTAMP:20261112T004000Z
+DTSTART:20261112T005500Z
+DTEND:20261112T010000Z
+SUMMARY:截止：申万宏源 岗位调剂意向问卷（今天09:00前）
+DESCRIPTION:11/11 14:47 通知：笔试未过、未进面试，但分支机
+ 构条线有缺口，征集调剂意愿。11/12 09:00 前填 https://v.wjx
+ .cn/vm/PAN9VGa.aspx （只可提交一次，慎重选岗）。逾期视为
+ 放弃调剂资格。
+BEGIN:VALARM
+TRIGGER:-PT20M
+ACTION:DISPLAY
+DESCRIPTION:申万宏源调剂问卷 09:00 截止，现在填
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ccbsh-jianli-20261112@workbuddy
+DTSTAMP:20261105T142000Z
+DTSTART:20261112T040000Z
+DTEND:20261112T040100Z
+SUMMARY:截止：建行上海分行 简历确认完善（11/12 12:00前\, 
+ 逾期不进面试）
+DESCRIPTION:https://ccb.mianshiyun.cn/ 用户名=报名序号（登录报
+ 名网站查或短信）\, 密码=身份证后6位。需准备身份证+
+ 最高学历证明扫描件（单个≤4MB）。注意行内亲属信息
+ 按实填。后续面试查验外语证书原件\, 提前找出CET-6原件
+ 。
+BEGIN:VALARM
+TRIGGER:-P2D
+ACTION:DISPLAY
+DESCRIPTION:建行简历完善还差 2 天（11/12 12:00 截止）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:wukuang-bishi-20261112@workbuddy
+DTSTAMP:20261110T012500Z
+DTSTART:20261112T070000Z
+DTEND:20261112T080000Z
+SUMMARY:五矿证券 在线笔试（15:00-16:00\, 15:30后禁入）
+DESCRIPTION:11/9 20:45 邀请。约60分钟\, 双机位（电脑Chrome72+
+ 作答 + 手机微信扫码第二视角45度）。需手持身份证原件
+ 拍照认证\, 未通过则成绩无效。链接 https://bsurl.cn/v2/djZto
+ 9YE 通行证 62267036294635 邮箱 yumengjiang2026@163.com。备用 https
+ ://wkzq8.ceping.com/pc?aId=CvVAfguZV4Ggvp9a3BKvHA== 。考前可提前进
+ 系统调试+试答（不计分）。建议14:30登录候考。需先回
+ 复邮件/短信确认「参加」。客服 400-650-6886。
+BEGIN:VALARM
+TRIGGER:TRIGGER:-PT45M
+ACTION:DISPLAY
+DESCRIPTION:五矿证券笔试 15:00 开始（14:30 登录\, 15:30 后禁
+ 入）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cmszjh-mianshi-20261113@workbuddy
+DTSTAMP:20261105T093000Z
+DTSTART:20261113T023000Z
+DTEND:20261113T040000Z
+SUMMARY:招商证券投行委 现场面试（10:30\, 浦东招商局上海
+ 中心5F 519）
+DESCRIPTION:2027校招面试。提前10分钟签到。带6份纸质简历\,
+  2分钟自我介绍（基本情况+投行相关技能优势）。地址
+ ：浦东新区博航路68号招商局上海中心5楼519会议室。需
+ 已回复邮件确认。
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:明天 10:30 招商证券投行委现场面试（带6份纸质
+ 简历）
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:招商证券面试 10:30 开始\, 提前出发
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:chinapost-bishi-20261113@workbuddy
+DTSTAMP:20261106T124000Z
+DTSTART:20261113T060000Z
+DTEND:20261113T080000Z
+SUMMARY:中国邮政 联合校招 笔试（14:00-16:00\, 线上双摄）
+DESCRIPTION:准考证/正式网址 https://t.weicewang.com/notify/38386 。
+ 需 Win10/11 或 Mac10.15.6+\, Chrome 或 360极速\, 手机微信扫码
+ 第二视角。13:00 可登录\, 14:30 后不得登录\, 单元单独计
+ 时提交后不可返回。⚠️ 同日 10:30 有招商证券现场面试
+ （浦东）\, 面试后须赶回家。
+BEGIN:VALARM
+TRIGGER:-PT90M
+ACTION:DISPLAY
+DESCRIPTION:中国邮政笔试 14:00 开始（先赶回家\, 13:00 可登
+ 录调试）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:shrcb-zhongmian-20261114@workbuddy
+DTSTAMP:20261112T100000Z
+DTSTART:20261114T010000Z
+DTEND:20261114T030000Z
+SUMMARY:上海农商银行 现场终面（09:00\, 外滩SOHO B栋1702\, 提
+ 前10分钟签到\, 正装）
+DESCRIPTION:需带：身份证+本科硕士成绩单(原件)+JHU在读证
+ 明/学生卡+本科毕业证学位证+亲属回避及经商办申报表(
+ 打印手填)。带复印件。
+END:VEVENT
+BEGIN:VEVENT
+UID:meituan-deadline-20261117@workbuddy
+DTSTAMP:20261028T081000Z
+DTSTART;VALUE=DATE:20261117
+SUMMARY:最晚完成：美团综合能力测试（60分钟\, 建议11/17前
+ ）
+DESCRIPTION:牛客平台\, 摄像头全程开启\, 链接 https://hr.nowcod
+ er.com/v1/s/twsS8aDY 。10/30 又发催办（有效期按新邮件顺延\,
+  约11/29）\, 但建议 11/17 前做完。
+END:VEVENT
+BEGIN:VEVENT
+UID:sinochem-wulingdao-20261117@workbuddy
+DTSTAMP:20261112T004000Z
+DTSTART:20261117T070000Z
+DTEND:20261117T074500Z
+SUMMARY:中国中化 审计中心-境外审计 无领导小组面试（15:0
+ 0-15:45）
+DESCRIPTION:已预约成功（11/11 15:42 确认）。线上视频：华为
+ 云会议 会议号 985 236 522，电脑端下载App登录；或 https://m
+ obile.sinochem.com/EasyMeeting/#/j/985236522 。14:45（提前15分钟）
+ 进入等候间，先测麦克风摄像头。约45分钟。联系人 燕
+ 女士 0312-5568510 / 19333337218。保密：不得泄露面试内容。
+BEGIN:VALARM
+TRIGGER:-PT45M
+ACTION:DISPLAY
+DESCRIPTION:中化无领导 15:00（14:45进等候间，华为云会议 985
+  236 522）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:huaxia-mianshi-20261117@workbuddy
+DTSTAMP:20261116T011600Z
+DTSTART:20261117T090000Z
+DTEND:20261117T100000Z
+SUMMARY:华夏银行上海分行 线上面试（无领导小组，17:00-18:
+ 00）
+DESCRIPTION:已通过笔试（11/13 14:20 通知）。腾讯会议 398-579-
+ 637，入会密码 1117；链接 https://meeting.tencent.com/dm/q8g8KnzHX7
+ 8c 。16:50（提前10分钟）进会。联系人 陈老师 微信 1502686
+ 5894。⚠️ 原要求 11/14 17:00 前回复「接受面试」，回复
+ 已超时 → 必须提前确认场次仍有效。⚠️ 与同日 15:00-1
+ 5:45 中化无领导仅隔 1 小时 15 分，中化结束立刻切会议
+ 。
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:华夏银行无领导 17:00（16:50 进腾讯会议 398-579-637
+ ）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:boc-mianshi-20261120@workbuddy
+DTSTAMP:20261110T012500Z
+DTSTART:20261120T010000Z
+DTEND:20261120T020000Z
+SUMMARY:中国银行上海分行 线下面试（11/20 09:00-10:00 已预约
+ ）
+DESCRIPTION:岗位：营业网点业务岗（营销服务）。地点：中
+ 国银行外滩大楼5楼\, 黄浦区滇池路74号（入口在滇池路
+ ）。正装、提前15分钟签到；带身份证 + 黑色水笔；严禁
+ 携带手机/耳机/电子手表/智能眼镜。地铁2/10号线南京东
+ 路站。紧急联系 13818490098。
+BEGIN:VALARM
+TRIGGER:TRIGGER:-PT20H
+ACTION:DISPLAY
+DESCRIPTION:明天 09:00 中行线下面试（外滩大楼5楼\, 提前15
+ 分钟到）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:guotou-ceping-20261124@workbuddy
+DTSTAMP:20261120T013500Z
+DTSTART:20261124T120000Z
+DTEND:20261124T123000Z
+SUMMARY:截止：国投证券 债权业务岗（上海）线上测评 20:00
+DESCRIPTION:已通过简历筛选，进入线上通用能力测评。窗口
+  11/19 20:00 - 11/24 20:00。多个子测试各自限时，需预留完整
+ 时间（约60-90分钟），安静环境一次做完。链接在 11/19 19
+ :45 邮件内「开始测评」。
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:明天20:00国投证券测评截止
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dfyh-huizhi-20261125@workbuddy
+DTSTAMP:20261119T034300Z
+DTSTART:20261125T155900Z
+DTEND:20261125T160000Z
+SUMMARY:截止：大丰银行（澳门）笔试回执+应聘材料邮件（
+ 11/25 23:59 前）
+DESCRIPTION:11/18 邮件：进入 2027 校招笔试环节。需邮件回复
+ 是否参加笔试\, 并附职位申请表+硕士/学士/高中毕业证
+ 及成绩表+专业证书+实习证明。笔试 12/2 15:00 澳门线下。
+ 逾期不回视为放弃。联系 陈先生+85387671320 / 谢小姐+853879
+ 71653。
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:大丰银行回执明天 23:59 截止（邮件回复+附件材
+ 料）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:jianhang-mianshi-20261128@workbuddy
+DTSTAMP:20261122T012200Z
+DTSTART:20261128T013000Z
+DTEND:20261128T043000Z
+SUMMARY:建行上海市分行 现场面试（09:30，08:50到场）
+DESCRIPTION:九江路60号2楼（电梯按1楼）\, 从大楼外左侧通
+ 道进\, 勿走营业网点；地铁2/10号线南京东路站步行500米
+ 。带身份证原件+外语证书原件(CET-4/6纸质或官方成绩证
+ 明；雅思托福托业须纸质原件)+黑色水笔；禁带手机/耳
+ 机/平板/智能手表。一轮含群面+单面\, 半天内结束。
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:建行面试 09:30 开始\, 08:50 到九江路60号2楼
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nfdw-bishi-20261128@workbuddy
+DTSTAMP:20261122T012200Z
+DTSTART:20261128T060000Z
+DTEND:20261128T080000Z
+SUMMARY:南方电网 统一笔试（暂定 11/28 下午\, 待确认）
+DESCRIPTION:笔试时间「暂定」\, 具体待通知；意向确认已于
+  11/21 12:00 截止且逾期\, 需先登录 c.exam-sp.com/nfdw2027 （证
+ 件号+初始密码 cnyi88）补救\, 否则无资格。与建行 09:30 
+ 面试同日\, 中间零缓冲。
+STATUS:TENTATIVE
+BEGIN:VALARM
+TRIGGER:-PT3H
+ACTION:DISPLAY
+DESCRIPTION:南网笔试暂定下午\, 与建行面试同日\, 确认时段
+ 与形式
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dfyh-bishi-20261202@workbuddy
+DTSTAMP:20261119T034300Z
+DTSTART:20261202T070000Z
+DTEND:20261202T080000Z
+SUMMARY:大丰银行（澳门）线下笔试（12/2 周三 15:00\, 1 小时
+ ）
+DESCRIPTION:澳门新口岸宋玉生广场418号大丰银行总行大厦16
+ 楼人力资源部。提前15分钟到\, 逾时30分钟除名。带实体
+ 身份证件\, 自备笔\, 禁一切电子设备（含计算器）。⚠
+ ️次日 12/3 12:30 有工行上海面试\, 考完需当天返沪。
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:明天 15:00 大丰银行澳门笔试（提前订好沪澳往
+ 返）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:icbcsh-mianshi-20261203@workbuddy
+DTSTAMP:20261119T034300Z
+DTSTART:20261203T043000Z
+DTEND:20261203T073000Z
+SUMMARY:工商银行上海分行 线下面试（12/3 周四 12:30 签到\, 
+ 预留 3 小时）
+DESCRIPTION:已过笔试入围【金融通才】岗。徐汇区漕宝路100
+ 号 工银研修中心（上海）。带身份证原件。签到后至少
+ 预留3小时面试候场。迟到半小时以上无法安排本场。改
+ 期须邮件 recruit@sh.icbc.com.cn 说明（可改 11/25-12/8 工作日
+ ）。
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:明天 12:30 工行上海面试（漕宝路100号\, 预留3小
+ 时）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nesc-chumian-20261124@workbuddy
+DTSTAMP:20261124T004500Z
+DTSTART:20261124T010000Z
+DTEND:20261124T013000Z
+SUMMARY:🔴 东北证券 产品分析支持岗 视频初面（今天，时
+ 段待群通知）
+DESCRIPTION:11/23 10:32 邮件只说"本周二11月24日"，未给具体时
+ 间。第一步：打开该邮件，扫附件「产品分析支持岗面
+ 试群.png」二维码进微信群，改真名后看群内时段。岗位
+ ：金融产品部·产品分析支持岗(J14083)，基金/资管产品筛
+ 选评价、业绩归因、FOF、准入材料。准备：1分钟自我介
+ 绍、怎么看一只基金好坏（同类可比+风险调整收益+回撤
+ +风格稳定+规模流动性+经理稳定性）、因子分析与数据
+ 异常检测案例。视频面提前10分钟进会议室，摄像头开、
+ 纯色背景、手机静音、纸质简历2份。
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:东北证券视频初面：先确认群内时段，进会议室
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ocbc-ceping-20261129@workbuddy
+DTSTAMP:20261124T004500Z
+DTSTART:20261129T155900Z
+DTEND:20261129T161400Z
+SUMMARY:截止：华侨银行 OCBC 在线测评（23:59 已到）
+DESCRIPTION:菁英人才项目 Graduate Talent Programme 2027。入口 http
+ s://ocbc.maptqcn.com ，Login-ID ncn-p5r-xvu-g8h（专属勿转发）。
+ 结构：ADEPT-15 性格测评 20-30 分钟 + 认知能力（数字/言语
+ /逻辑推理）约30分钟，总计约50-60分钟。每段只能做一次
+ ，中途退出不能续做。最晚今晚21:00前开做。
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:OCBC测评明天23:59截止（一次机会）
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:OCBC测评2小时后截止，立刻开做
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ocbc-ceping-jianyi-20261126@workbuddy
+DTSTAMP:20261124T004500Z
+DTSTART:20261125T120000Z
+DTEND:20261125T130000Z
+SUMMARY:建议：华侨银行 OCBC 在线测评（今晚20:00\, 50-60分钟
+ ）
+DESCRIPTION:今晚 20:00 一次做完（避开 11/28 建行）：性格测
+ 评 20-30 分钟 + 认知能力 30 分钟。入口 ocbc.maptqcn.com，ID n
+ cn-p5r-xvu-g8h。截止 11/29 23:59，只有一次机会，中途退出不
+ 能续做。安静环境、稳定网络、Chrome。
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:30分钟后做OCBC测评（50-60分钟一次性完成）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hsbc-hr-reply-20261125@workbuddy
+DTSTAMP:20261124T083000Z
+DTSTART:20261125T100000Z
+DTEND:20261125T100500Z
+SUMMARY:截止：汇丰环球 广州招聘会回复（今天18:00前\, 逾
+ 期作废）
+BEGIN:VALARM
+TRIGGER:-PT6H
+ACTION:DISPLAY
+DESCRIPTION:汇丰招聘会回复今天18:00截止（先看附件日期再
+ 回）
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:汇丰招聘会回复只剩2小时
+END:VALARM
+DESCRIPTION:HR Silvia Zhong\, 岗位 Analyst Capital Markets and Advisory (
+ IB)\, 线下招聘会在广州\, 具体日期在附件图片\, 先登录16
+ 3网页版看附件再回复\, 实名邀约带身份证
+END:VEVENT
+BEGIN:VEVENT
+UID:ccb-mianshi-cailiao-20261127@workbuddy
+DTSTAMP:20261125T010000Z
+DTSTART:20261127T113000Z
+DTEND:20261127T123000Z
+SUMMARY:建行面试前一天：材料装袋+路线确认
+DESCRIPTION:明天09:30建行上海分行面试（08:50到场）。今晚
+ 装袋：身份证原件+外语证书原件（CET-4/6纸质或官方成绩
+ 证明；雅思托福托业须纸质原件）+黑色水笔。手机/耳机
+ /平板/智能手表不能带进考场\, 先想好存放。路线：九江
+ 路60号2楼\, 从大楼外左侧通道进\, 地铁2/10号线南京东路
+ 站步行500米\, 08:10出门。早睡。
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:建行面试材料装袋+路线确认（明天08:50到场）
+END:VALARM
+END:VEVENT
+END:VCALENDAR
