@@ -857,7 +857,7 @@ DESCRIPTION:11/9 13:38 通知。面试固定 11/14（周六）\, 地点：
  间段\, 名额有限先到先得\, 逾期视作放弃。咨询 zhaopin@sh
  rcb.com。建议约上午场。
 BEGIN:VALARM
-TRIGGER:TRIGGER:-PT3H
+TRIGGER:-PT3H
 ACTION:DISPLAY
 DESCRIPTION:上海农商终面预约 12:00 截止（逾期作放弃）
 END:VALARM
@@ -876,7 +876,7 @@ DESCRIPTION:11/9 18:13 通知。已过简历筛选\, 进入无领导小组
  体时间与形式以后续正式通知为准。注意：11/20 09:00-10:00
   已在上海有中行面试\, 若选线下需留意撞期。
 BEGIN:VALARM
-TRIGGER:TRIGGER:-PT6H
+TRIGGER:-PT6H
 ACTION:DISPLAY
 DESCRIPTION:中化无领导面试问卷 24:00 截止（逾期默认线上
  ）
@@ -946,7 +946,7 @@ DESCRIPTION:11/9 20:45 邀请。约60分钟\, 双机位（电脑Chrome72+
  系统调试+试答（不计分）。建议14:30登录候考。需先回
  复邮件/短信确认「参加」。客服 400-650-6886。
 BEGIN:VALARM
-TRIGGER:TRIGGER:-PT45M
+TRIGGER:-PT45M
 ACTION:DISPLAY
 DESCRIPTION:五矿证券笔试 15:00 开始（14:30 登录\, 15:30 后禁
  入）
@@ -1067,7 +1067,7 @@ DESCRIPTION:岗位：营业网点业务岗（营销服务）。地点：中
  携带手机/耳机/电子手表/智能眼镜。地铁2/10号线南京东
  路站。紧急联系 13818490098。
 BEGIN:VALARM
-TRIGGER:TRIGGER:-PT20H
+TRIGGER:-PT20H
 ACTION:DISPLAY
 DESCRIPTION:明天 09:00 中行线下面试（外滩大楼5楼\, 提前15
  分钟到）
