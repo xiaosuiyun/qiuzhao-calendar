@@ -1090,25 +1090,6 @@ DESCRIPTION:明天20:00国投证券测评截止
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:dfyh-huizhi-20261125@workbuddy
-DTSTAMP:20261119T034300Z
-DTSTART:20261125T155900Z
-DTEND:20261125T160000Z
-SUMMARY:截止：大丰银行（澳门）笔试回执+应聘材料邮件（
- 11/25 23:59 前）
-DESCRIPTION:11/18 邮件：进入 2027 校招笔试环节。需邮件回复
- 是否参加笔试\, 并附职位申请表+硕士/学士/高中毕业证
- 及成绩表+专业证书+实习证明。笔试 12/2 15:00 澳门线下。
- 逾期不回视为放弃。联系 陈先生+85387671320 / 谢小姐+853879
- 71653。
-BEGIN:VALARM
-TRIGGER:-P1D
-ACTION:DISPLAY
-DESCRIPTION:大丰银行回执明天 23:59 截止（邮件回复+附件材
- 料）
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:jianhang-mianshi-20261128@workbuddy
 DTSTAMP:20261122T012200Z
 DTSTART:20261128T013000Z
@@ -1127,20 +1108,20 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nfdw-bishi-20261128@workbuddy
-DTSTAMP:20261122T012200Z
-DTSTART:20261128T060000Z
-DTEND:20261128T080000Z
-SUMMARY:南方电网 统一笔试（暂定 11/28 下午\, 待确认）
-DESCRIPTION:笔试时间「暂定」\, 具体待通知；意向确认已于
-  11/21 12:00 截止且逾期\, 需先登录 c.exam-sp.com/nfdw2027 （证
- 件号+初始密码 cnyi88）补救\, 否则无资格。与建行 09:30 
- 面试同日\, 中间零缓冲。
-STATUS:TENTATIVE
+DTSTAMP:20261126T070500Z
+DTSTART:20261128T063000Z
+DTEND:20261128T093000Z
+SUMMARY:南方电网 统一笔试（14:30-17:30\, 已确认）
+DESCRIPTION:时间已官方确认。进场需纸质准考证+有效身份
+ 证。准考证打印（电脑浏览器）：t.exam-sp.com/index.html#/e/n
+ fdw2027/print\, 11/28 14:50 后网页关闭。与建行 09:30 线下面试
+ 同日：上午建行（九江路60号）\, 面完中午回住处\, 14:00 
+ 前坐定进系统。双场日注意时间衔接。
 BEGIN:VALARM
-TRIGGER:-PT3H
+TRIGGER:-PT1H
 ACTION:DISPLAY
-DESCRIPTION:南网笔试暂定下午\, 与建行面试同日\, 确认时段
- 与形式
+DESCRIPTION:南网笔试 14:30 开考（13:30 前坐定\, 纸质准考证+
+ 身份证）
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -1225,45 +1206,6 @@ DESCRIPTION:OCBC测评2小时后截止，立刻开做
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ocbc-ceping-jianyi-20261126@workbuddy
-DTSTAMP:20261124T004500Z
-DTSTART:20261125T120000Z
-DTEND:20261125T130000Z
-SUMMARY:建议：华侨银行 OCBC 在线测评（今晚20:00\, 50-60分钟
- ）
-DESCRIPTION:今晚 20:00 一次做完（避开 11/28 建行）：性格测
- 评 20-30 分钟 + 认知能力 30 分钟。入口 ocbc.maptqcn.com，ID n
- cn-p5r-xvu-g8h。截止 11/29 23:59，只有一次机会，中途退出不
- 能续做。安静环境、稳定网络、Chrome。
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:30分钟后做OCBC测评（50-60分钟一次性完成）
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:hsbc-hr-reply-20261125@workbuddy
-DTSTAMP:20261124T083000Z
-DTSTART:20261125T100000Z
-DTEND:20261125T100500Z
-SUMMARY:截止：汇丰环球 广州招聘会回复（今天18:00前\, 逾
- 期作废）
-BEGIN:VALARM
-TRIGGER:-PT6H
-ACTION:DISPLAY
-DESCRIPTION:汇丰招聘会回复今天18:00截止（先看附件日期再
- 回）
-END:VALARM
-BEGIN:VALARM
-TRIGGER:-PT2H
-ACTION:DISPLAY
-DESCRIPTION:汇丰招聘会回复只剩2小时
-END:VALARM
-DESCRIPTION:HR Silvia Zhong\, 岗位 Analyst Capital Markets and Advisory (
- IB)\, 线下招聘会在广州\, 具体日期在附件图片\, 先登录16
- 3网页版看附件再回复\, 实名邀约带身份证
-END:VEVENT
-BEGIN:VEVENT
 UID:ccb-mianshi-cailiao-20261127@workbuddy
 DTSTAMP:20261125T010000Z
 DTSTART:20261127T113000Z
@@ -1279,6 +1221,108 @@ BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY
 DESCRIPTION:建行面试材料装袋+路线确认（明天08:50到场）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ha-ceping-20261126@workbuddy
+DTSTAMP:20261126T070500Z
+DTSTART:20261126T155900Z
+DTEND:20261126T160000Z
+SUMMARY:截止：华安证券 线上性格测评（今晚24:00前）
+DESCRIPTION:入口 g.wisevirtue.cn/r/eUEsZ\, 约30-40分钟。有作答真
+ 实度检验：凭第一反应、按工作中最常见行为作答\, 避
+ 免极端化/讨好化。安静环境、网络畅通。疑问 zhaopin@hazq
+ .com。
+BEGIN:VALARM
+TRIGGER:-PT4H
+ACTION:DISPLAY
+DESCRIPTION:华安性格测评今晚24:00截止（约30-40分钟）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sinochem-ermian-yuyue-20261126@workbuddy
+DTSTAMP:20261126T070500Z
+DTSTART:20261126T155900Z
+DTEND:20261126T160000Z
+SUMMARY:截止：中化境外审计岗 二面场次预约（今晚24:00前
+ ）
+DESCRIPTION:邮件内「预约面试」选场次（面试定 11/30 周一\,
+  线上华为云）。24:00 预约关闭且关闭后不可再改\, 场次
+ 约满即不可选。建议约下午场。联系燕女士 0312-5568510 / 1
+ 9333337218。
+BEGIN:VALARM
+TRIGGER:-PT5H
+ACTION:DISPLAY
+DESCRIPTION:中化二面场次预约今晚24:00关闭（先约\, 5分钟）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sinochem-ermian-20261130@workbuddy
+DTSTAMP:20261126T070500Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:中国中化 审计中心-境外审计岗 二面（11/30 周一\, 
+ 线上华为云）
+DESCRIPTION:具体时段以 11/26 预约为准（场次 11/26 24:00 前约
+ ）。提前10分钟进等候间调音视频。备点：境外审计=审
+ 计程序+内控+跨境合规；ACCA+申能再授信报告（财务分析/
+ 风险定价）直接迁移。燕女士 0312-5568510 / 19333337218。
+BEGIN:VALARM
+TRIGGER:-PT14H
+ACTION:DISPLAY
+DESCRIPTION:明天中化境外审计岗二面（线上华为云\, 时段见
+ 预约）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:nfdw-zhunkaozheng-20261127@workbuddy
+DTSTAMP:20261126T070500Z
+DTSTART:20261127T113000Z
+DTEND:20261127T120000Z
+SUMMARY:提醒：南网准考证打印（明天14:30笔试\, 14:50后打印
+ 页关闭）
+DESCRIPTION:电脑浏览器打开 t.exam-sp.com/index.html#/e/nfdw2027/prin
+ t 下载打印准考证。进场需纸质准考证+有效身份证。明
+ 天建行09:30面试+南网14:30笔试双场日\, 今晚必须打好准考
+ 证并装袋。
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:今晚打印南网准考证（明天笔试14:30\, 14:50后打
+ 印页关闭）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cmb-cailiao-jianyi-20261127@workbuddy
+DTSTAMP:20261126T070500Z
+DTSTART:20261127T100000Z
+DTEND:20261127T110000Z
+SUMMARY:建议：招行签约材料今天提交（别压11/29）
+DESCRIPTION:扫描/拍照后填 wjx.top/vm/YmkSuQw.aspx 提交（截止11/2
+ 9 24:00）。若《签约材料须知》（网盘提取码 Q5qq）要求
+ 邮寄纸质件\, 今天必须寄出（周末快递卡）。明天建行+
+ 南网双场日\, 今天交完最稳。
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:招行签约材料建议今天提交（截止11/29 24:00）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cmb-cailiao-20261129@workbuddy
+DTSTAMP:20261126T070500Z
+DTSTART:20261129T155900Z
+DTEND:20261129T160000Z
+SUMMARY:截止：招行签约材料提交（23:59 已到）
+DESCRIPTION:唯一到手 offer（招行上海分行 综合培养生）的
+ 正式材料环节。提交入口 wjx.top/vm/YmkSuQw.aspx；《签约材
+ 料须知》百度网盘 pan.baidu.com/s/1X1LJ5t2Q1WMV_hYWXC6S0g 提取码
+  Q5qq。建议 11/27 已交\, 今天只核对。咨询 career_cmbsh@126.co
+ m。
+BEGIN:VALARM
+TRIGGER:-PT5H
+ACTION:DISPLAY
+DESCRIPTION:招行签约材料今晚24:00截止
 END:VALARM
 END:VEVENT
 END:VCALENDAR
