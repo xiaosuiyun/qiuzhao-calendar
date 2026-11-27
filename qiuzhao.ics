@@ -1099,11 +1099,15 @@ DESCRIPTION:九江路60号2楼（电梯按1楼）\, 从大楼外左侧通
  道进\, 勿走营业网点；地铁2/10号线南京东路站步行500米
  。带身份证原件+外语证书原件(CET-4/6纸质或官方成绩证
  明；雅思托福托业须纸质原件)+黑色水笔；禁带手机/耳
- 机/平板/智能手表。一轮含群面+单面\, 半天内结束。
+ 机/平板/智能手表。一轮含群面+单面\, 半天内结束。当
+ 天下午14:30南网笔试、晚上20:00信银理财笔试\, 三场连打\
+ , 中午务必回血。
 BEGIN:VALARM
 TRIGGER:-PT2H
 ACTION:DISPLAY
-DESCRIPTION:建行面试 09:30 开始\, 08:50 到九江路60号2楼
+DESCRIPTION:建行面试 09:30 开始\, 08:50 到九江路60号2楼当天
+ 下午14:30南网笔试、晚上20:00信银理财笔试\, 三场连打\, 
+ 中午务必回血。
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -1224,39 +1228,6 @@ DESCRIPTION:建行面试材料装袋+路线确认（明天08:50到场）
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ha-ceping-20261126@workbuddy
-DTSTAMP:20261126T070500Z
-DTSTART:20261126T155900Z
-DTEND:20261126T160000Z
-SUMMARY:截止：华安证券 线上性格测评（今晚24:00前）
-DESCRIPTION:入口 g.wisevirtue.cn/r/eUEsZ\, 约30-40分钟。有作答真
- 实度检验：凭第一反应、按工作中最常见行为作答\, 避
- 免极端化/讨好化。安静环境、网络畅通。疑问 zhaopin@hazq
- .com。
-BEGIN:VALARM
-TRIGGER:-PT4H
-ACTION:DISPLAY
-DESCRIPTION:华安性格测评今晚24:00截止（约30-40分钟）
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sinochem-ermian-yuyue-20261126@workbuddy
-DTSTAMP:20261126T070500Z
-DTSTART:20261126T155900Z
-DTEND:20261126T160000Z
-SUMMARY:截止：中化境外审计岗 二面场次预约（今晚24:00前
- ）
-DESCRIPTION:邮件内「预约面试」选场次（面试定 11/30 周一\,
-  线上华为云）。24:00 预约关闭且关闭后不可再改\, 场次
- 约满即不可选。建议约下午场。联系燕女士 0312-5568510 / 1
- 9333337218。
-BEGIN:VALARM
-TRIGGER:-PT5H
-ACTION:DISPLAY
-DESCRIPTION:中化二面场次预约今晚24:00关闭（先约\, 5分钟）
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:sinochem-ermian-20261130@workbuddy
 DTSTAMP:20261126T070500Z
 DTSTART;VALUE=DATE:20261130
@@ -1323,6 +1294,56 @@ BEGIN:VALARM
 TRIGGER:-PT5H
 ACTION:DISPLAY
 DESCRIPTION:招行签约材料今晚24:00截止
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:xylc-huizhi-20261127@workbuddy
+DTSTAMP:20261127T013700Z
+DTSTART:20261127T014500Z
+DTEND:20261127T020500Z
+SUMMARY:今天必做：信银理财 笔试「确认参加」回执（2分
+ 钟）
+DESCRIPTION:明天11/28 20:00就要开考\, 回执今天点掉：https://s.
+ 51job.com/3kczX7 选「确认参加」。若不打算参加\, 也在此明
+ 确选「放弃考试」\, 别被动超时。
+BEGIN:VALARM
+TRIGGER:-PT0M
+ACTION:DISPLAY
+DESCRIPTION:现在点信银理财回执确认参加
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sinochem-heyan-20261127@workbuddy
+DTSTAMP:20261127T013700Z
+DTSTART:20261127T020500Z
+DTEND:20261127T022500Z
+SUMMARY:今天必做：核实中化 11/30 二面场次是否约上
+DESCRIPTION:场次预约定于11/26 24:00关闭。若没约上：立刻联
+ 系燕女士 0312-5568510 / 19333337218, 或邮件 zhaopin_sinochem@mail.h
+ rtools.cn 说明并请求补约。这是目前推进最快的一条线。
+BEGIN:VALARM
+TRIGGER:-PT0M
+ACTION:DISPLAY
+DESCRIPTION:核实中化11/30二面场次
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:xylc-bishi-20261128@workbuddy
+DTSTAMP:20261127T013700Z
+DTSTART:20261128T120000Z
+DTEND:20261128T140000Z
+SUMMARY:信银理财 在线笔试（20:00-22:00\, 22:00统一收卷）
+DESCRIPTION:登录窗口20:00-20:30\, 超时无法登录视为放弃；120
+ 分钟\,22:00系统统一收卷。Chrome100以上+带宽12M；摄像头麦
+ 克风全程监控；手机作第二机位放侧后方1-2米(拍屏幕+上
+ 半身+双手+桌面)；屏幕共享须选「整个屏幕」。切屏3次
+ 即判作弊。登录链接 https://s.51job.com/135Po7 。19:30开始设
+ 备测试\,19:50前登录待考。当天为三场日(建行09:30→南网1
+ 4:30-17:30→本场20:00)\,17:30后先吃饭再调设备。
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:19:00 开始调设备\, 20:00 信银理财笔试开考
 END:VALARM
 END:VEVENT
 END:VCALENDAR
