@@ -1210,24 +1210,6 @@ DESCRIPTION:OCBC测评2小时后截止，立刻开做
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ccb-mianshi-cailiao-20261127@workbuddy
-DTSTAMP:20261125T010000Z
-DTSTART:20261127T113000Z
-DTEND:20261127T123000Z
-SUMMARY:建行面试前一天：材料装袋+路线确认
-DESCRIPTION:明天09:30建行上海分行面试（08:50到场）。今晚
- 装袋：身份证原件+外语证书原件（CET-4/6纸质或官方成绩
- 证明；雅思托福托业须纸质原件）+黑色水笔。手机/耳机
- /平板/智能手表不能带进考场\, 先想好存放。路线：九江
- 路60号2楼\, 从大楼外左侧通道进\, 地铁2/10号线南京东路
- 站步行500米\, 08:10出门。早睡。
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:建行面试材料装袋+路线确认（明天08:50到场）
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:sinochem-ermian-20261130@workbuddy
 DTSTAMP:20261126T070500Z
 DTSTART;VALUE=DATE:20261130
@@ -1243,40 +1225,6 @@ TRIGGER:-PT14H
 ACTION:DISPLAY
 DESCRIPTION:明天中化境外审计岗二面（线上华为云\, 时段见
  预约）
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:nfdw-zhunkaozheng-20261127@workbuddy
-DTSTAMP:20261126T070500Z
-DTSTART:20261127T113000Z
-DTEND:20261127T120000Z
-SUMMARY:提醒：南网准考证打印（明天14:30笔试\, 14:50后打印
- 页关闭）
-DESCRIPTION:电脑浏览器打开 t.exam-sp.com/index.html#/e/nfdw2027/prin
- t 下载打印准考证。进场需纸质准考证+有效身份证。明
- 天建行09:30面试+南网14:30笔试双场日\, 今晚必须打好准考
- 证并装袋。
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:今晚打印南网准考证（明天笔试14:30\, 14:50后打
- 印页关闭）
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:cmb-cailiao-jianyi-20261127@workbuddy
-DTSTAMP:20261126T070500Z
-DTSTART:20261127T100000Z
-DTEND:20261127T110000Z
-SUMMARY:建议：招行签约材料今天提交（别压11/29）
-DESCRIPTION:扫描/拍照后填 wjx.top/vm/YmkSuQw.aspx 提交（截止11/2
- 9 24:00）。若《签约材料须知》（网盘提取码 Q5qq）要求
- 邮寄纸质件\, 今天必须寄出（周末快递卡）。明天建行+
- 南网双场日\, 今天交完最稳。
-BEGIN:VALARM
-TRIGGER:-PT2H
-ACTION:DISPLAY
-DESCRIPTION:招行签约材料建议今天提交（截止11/29 24:00）
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -1297,37 +1245,6 @@ DESCRIPTION:招行签约材料今晚24:00截止
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:xylc-huizhi-20261127@workbuddy
-DTSTAMP:20261127T013700Z
-DTSTART:20261127T014500Z
-DTEND:20261127T020500Z
-SUMMARY:今天必做：信银理财 笔试「确认参加」回执（2分
- 钟）
-DESCRIPTION:明天11/28 20:00就要开考\, 回执今天点掉：https://s.
- 51job.com/3kczX7 选「确认参加」。若不打算参加\, 也在此明
- 确选「放弃考试」\, 别被动超时。
-BEGIN:VALARM
-TRIGGER:-PT0M
-ACTION:DISPLAY
-DESCRIPTION:现在点信银理财回执确认参加
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sinochem-heyan-20261127@workbuddy
-DTSTAMP:20261127T013700Z
-DTSTART:20261127T020500Z
-DTEND:20261127T022500Z
-SUMMARY:今天必做：核实中化 11/30 二面场次是否约上
-DESCRIPTION:场次预约定于11/26 24:00关闭。若没约上：立刻联
- 系燕女士 0312-5568510 / 19333337218, 或邮件 zhaopin_sinochem@mail.h
- rtools.cn 说明并请求补约。这是目前推进最快的一条线。
-BEGIN:VALARM
-TRIGGER:-PT0M
-ACTION:DISPLAY
-DESCRIPTION:核实中化11/30二面场次
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:xylc-bishi-20261128@workbuddy
 DTSTAMP:20261127T013700Z
 DTSTART:20261128T120000Z
@@ -1344,6 +1261,42 @@ BEGIN:VALARM
 TRIGGER:-PT60M
 ACTION:DISPLAY
 DESCRIPTION:19:00 开始调设备\, 20:00 信银理财笔试开考
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:jianxin-huizhi-20261130@workbuddy
+DTSTAMP:20261128T000000Z
+DTSTART:20261130T000000Z
+DTEND:20261130T001500Z
+SUMMARY:截止：建信基金 面试回复（明早08:00前\, 逾期视为
+ 放弃）
+DESCRIPTION:11/27 19:01 面试邀请函：须登录 job.ccb.com 招聘官
+ 网「我的通知」在通知详情内选「是/否」\, 直接回复邮
+ 件无效。建议今天就回「是」（面试12/4）。
+BEGIN:VALARM
+TRIGGER:-PT720M
+ACTION:DISPLAY
+DESCRIPTION:建信基金面试回复今晚必须完成\, 明早08:00硬截
+ 止
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:jianxin-mianshi-20261204@workbuddy
+DTSTAMP:20261128T000000Z
+DTSTART:20261204T061000Z
+DTEND:20261204T080000Z
+SUMMARY:建信基金 客户经理岗 面试（12/4 14:10 北京英蓝国际
+ ）
+DESCRIPTION:结构化面试约10分钟\, 14:10前到达。当前在内地\,
+  按通知为现场面试\, 形式不可调整：北京西城区金融大
+ 街7号英蓝国际16层(地铁2号线阜成门站C口南行300米)。带
+ 身份证原件。前夜12/3工行上海面试12:30结束即出发进京(
+ 高铁约4.5h或飞机)。回复须11/30 08:00前在 job.ccb.com 通知详
+ 情选「是」。
+BEGIN:VALARM
+TRIGGER:-PT1140M
+ACTION:DISPLAY
+DESCRIPTION:明晚出发进京\, 后天14:10建信基金面试(北京)
 END:VALARM
 END:VEVENT
 END:VCALENDAR
