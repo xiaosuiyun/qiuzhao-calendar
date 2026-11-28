@@ -1090,45 +1090,6 @@ DESCRIPTION:明天20:00国投证券测评截止
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:jianhang-mianshi-20261128@workbuddy
-DTSTAMP:20261122T012200Z
-DTSTART:20261128T013000Z
-DTEND:20261128T043000Z
-SUMMARY:建行上海市分行 现场面试（09:30，08:50到场）
-DESCRIPTION:九江路60号2楼（电梯按1楼）\, 从大楼外左侧通
- 道进\, 勿走营业网点；地铁2/10号线南京东路站步行500米
- 。带身份证原件+外语证书原件(CET-4/6纸质或官方成绩证
- 明；雅思托福托业须纸质原件)+黑色水笔；禁带手机/耳
- 机/平板/智能手表。一轮含群面+单面\, 半天内结束。当
- 天下午14:30南网笔试、晚上20:00信银理财笔试\, 三场连打\
- , 中午务必回血。
-BEGIN:VALARM
-TRIGGER:-PT2H
-ACTION:DISPLAY
-DESCRIPTION:建行面试 09:30 开始\, 08:50 到九江路60号2楼当天
- 下午14:30南网笔试、晚上20:00信银理财笔试\, 三场连打\, 
- 中午务必回血。
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:nfdw-bishi-20261128@workbuddy
-DTSTAMP:20261126T070500Z
-DTSTART:20261128T063000Z
-DTEND:20261128T093000Z
-SUMMARY:南方电网 统一笔试（14:30-17:30\, 已确认）
-DESCRIPTION:时间已官方确认。进场需纸质准考证+有效身份
- 证。准考证打印（电脑浏览器）：t.exam-sp.com/index.html#/e/n
- fdw2027/print\, 11/28 14:50 后网页关闭。与建行 09:30 线下面试
- 同日：上午建行（九江路60号）\, 面完中午回住处\, 14:00 
- 前坐定进系统。双场日注意时间衔接。
-BEGIN:VALARM
-TRIGGER:-PT1H
-ACTION:DISPLAY
-DESCRIPTION:南网笔试 14:30 开考（13:30 前坐定\, 纸质准考证+
- 身份证）
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:dfyh-bishi-20261202@workbuddy
 DTSTAMP:20261119T034300Z
 DTSTART:20261202T070000Z
